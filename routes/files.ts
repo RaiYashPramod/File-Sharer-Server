@@ -76,7 +76,7 @@ router.get("/:id/download", async (req, res) => {
     if (!file) {
       return res
         .status(404)
-        .json({ message: "The Link is Invalid! No file exists here!!" });
+        .json({ message: "The Link is Invalid! No file exists here!" });
     }
 
     https.get(file.secure_url, (fileStream) => {
