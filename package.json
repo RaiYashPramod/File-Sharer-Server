@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "main": "server.ts",
   "scripts": {
-    "dev": "nodemon server.ts"
+    "dev": "ts-node-dev --clear server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
   },
-  "type": "module",
   "author": "Rai Yash Pramod Anita",
   "dependencies": {
     "cloudinary": "^1.37.1",
