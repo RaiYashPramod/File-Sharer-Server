@@ -8,6 +8,7 @@
     "start": "node dist/server.js"
   },
   "author": "Rai Yash Pramod Anita",
+  "license": "ISC",
   "dependencies": {
     "cloudinary": "^1.37.1",
     "cors": "^2.8.5",
