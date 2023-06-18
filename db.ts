@@ -17,7 +17,7 @@ const connectDb = async() => {
     console.log('connected to Db');
     return;
   }
-  connection.on('error', ()=>console.log("Failed To Connect To Db"));
+  connection.on('error', ()=>console.log("Failed to Connect to Db"));
 }
 
 export default connectDb;
